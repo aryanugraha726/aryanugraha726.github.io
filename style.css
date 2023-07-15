@@ -62,16 +62,16 @@ section p {
     font-size: 18px;
 }
 
-.project {
+.archive {
     margin-bottom: 40px;
 }
 
-.project img {
+.archive img {
     max-width: 100%;
     height: auto;
 }
 
-.project h3 {
+.archive h3 {
     font-size: 24px;
     margin: 10px 0;
 }
