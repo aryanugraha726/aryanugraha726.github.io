@@ -116,6 +116,12 @@ section p {
     margin: 10px 0;
 }
 
+.social-media img {
+    max-height: 20px;
+    width: auto;
+    padding-right: 5px;
+}
+
 .form textarea {
     vertical-align: top;
 }
