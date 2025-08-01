@@ -1,0 +1,57 @@
+/* style.css */
+body {
+    background-color: #d5bdaf; /* Soft pink background */
+    font-family: 'Press Start 2P', cursive; /* Retro pixel font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #442c2e;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    background-color: #edede9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+}
+
+img {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 5px solid #75604c;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #d6ccc2; /* Light teal */
+    color: #442c2e;
+    border: 3px solid #442c2e;
+    padding: 15px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #c7f2f0;
+    transform: translateY(-3px);
+}
